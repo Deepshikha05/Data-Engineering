@@ -1,0 +1,14 @@
+Docker Commands 
+    1. Pull Docker Image
+        docker pull jenkins/jenkins:lts
+    2. Run Docker Image without the volume
+        docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+    3. Run Docker Image with the volume
+        docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins/jenkins:lts
+
+
+1. plugins 
+    1. blue ocean 
+    2. job config change 
+    3. 
+2. 
